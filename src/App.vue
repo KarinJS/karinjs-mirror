@@ -204,6 +204,7 @@ onMounted(async () => {
 .page-content {
   position: relative;
   z-index: 1;
+  padding: 0;
 }
 
 .content-wrap {
@@ -286,27 +287,5 @@ onMounted(async () => {
   color: var(--text-tertiary);
   font-size: 0.88rem;
   letter-spacing: 0.02em;
-}
-
-.page-content {
-  position: relative;
-  z-index: 1;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 56px clamp(16px, 4vw, 32px) 48px;
-  display: grid;
-  gap: clamp(56px, 10vw, 96px);
-}
-
-@media (max-width: 640px) {
-  .page-content {
-    padding-top: 34px;
-    gap: 56px;
-  }
-
-  .orb-left,
-  .orb-right {
-    opacity: 0.6;
-  }
 }
 </style>
