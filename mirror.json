@@ -1,0 +1,7 @@
+[
+  {
+    "path": "chrome-for-testing/last-known-good-versions.json",
+    "url": "https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions.json",
+    "pollingInterval": 10
+  }
+]
